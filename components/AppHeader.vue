@@ -17,12 +17,12 @@
 
 <script>
 export default {
-  name:'AppHeader'
-}
+  name: "AppHeader"
+};
 </script>
 
 <style>
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,14 +30,14 @@ export default {
   padding-bottom: 1rem;
   border-bottom: 1px dotted #ccc;
 }
-.header .title{
+.header .title {
   font-size: 3rem;
   color: #526488;
 }
-.header ul{
+.header ul {
   display: flex;
 }
-.header a{
+.header a {
   display: inline-block;
   background: #333;
   color: #fff;

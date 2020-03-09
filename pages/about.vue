@@ -7,21 +7,19 @@
 
 <script>
 export default {
-  head(){
-    return{
+  head() {
+    return {
       title: "About the app",
-      meta:[
+      meta: [
         {
-          hid:'description',
-          name:'description',
-          content: 'best place for corny dad jokes'
+          hid: "description",
+          name: "description",
+          content: "best place for corny dad jokes"
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

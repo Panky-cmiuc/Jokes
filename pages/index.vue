@@ -5,20 +5,18 @@
 </template>
 
 <script>
-
 export default {
-  head(){
-    return{
+  head() {
+    return {
       title: "Welcome to Dad Jokes",
-      meta:[
+      meta: [
         {
-          hid:'description',
-          name:'description',
-          content: 'best place for corny dad jokes'
+          hid: "description",
+          name: "description",
+          content: "best place for corny dad jokes"
         }
       ]
-    }
+    };
   }
-}
+};
 </script>
-
